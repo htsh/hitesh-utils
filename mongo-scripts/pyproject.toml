@@ -1,0 +1,8 @@
+[project]
+name = "mongo-backup-tool"
+version = "1.0.0"
+description = "Interactive MongoDB backup tool with ncurses UI"
+requires-python = ">=3.8"
+dependencies = [
+    "pymongo>=4.0.0",
+]
