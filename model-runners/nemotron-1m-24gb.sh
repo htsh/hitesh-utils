@@ -1,0 +1,1 @@
+llama-server --hf-repo unsloth/Nemotron-3-Nano-30B-A3B-GGUF --hf-file Nemotron-3-Nano-30B-A3B-UD-Q4_K_XL.gguf --alias "unsloth/Nemotron-3-Nano-30B-A3B" --fit on --min_p 0.01 --temp 0.6 --top-p 0.95 --ctx-size 1024000 --port 8001 --jinja --host 0.0.0.0 --cpu-moe --flash-attn on
